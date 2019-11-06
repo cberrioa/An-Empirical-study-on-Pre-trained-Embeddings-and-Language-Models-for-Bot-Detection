@@ -28,7 +28,7 @@ def client.get_all_tweets(user)
   end
 end
 
-first = false
+first = true
 Dir["./classification_processed/humans/*"].each do |file| 
 	puts file
 	csv_text = File.read(file)

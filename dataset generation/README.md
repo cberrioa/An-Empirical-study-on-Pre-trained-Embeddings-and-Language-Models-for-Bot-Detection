@@ -15,4 +15,12 @@ Please be aware that the scripts are expecting the "classification_processed" fo
 
 If everything is fine, two CSV files containing human and bot tweets will be generated 'tweets-humans.csv' and 'tweets-bots.csv'.
 
+To preprocess the dataset (substitute url to tags, split words with "/", tag users, tag emoticons and numbers, split hashtags on uppercase, mark puntuation repetitions, mark elongated words, and mark allcaps), use the following commands:
+```
+ruby preprocess-twitter.rb tweets-humans.csv tweets-humans-preprocessed.csv
+ruby preprocess-twitter.rb tweets-bots.csv tweets-bots-preprocessed.csv
+```
+
 We created the training and test datasets joining both human and bot tweet datasest in one dataset, taking a random sample of 500000 tweets for training and 100000 random tweets for testing. The code can be found at [Generate_human_and_bots_tweets_dataset.ipynb](https://github.com/cberrioa/Human-or-Bot/blob/master/dataset%20geneation/Generate_human_and_bots_tweets_dataset.ipynb). This notebook can be imported in [Google Colab](https://colab.research.google.com), and can be runned from there if you want. You need to upload the 'tweets-humans.csv' and 'tweets-bots.csv' into Google Drive.
+ 
+ You can use the same notebook to generate the dataset of preprocessed tweets.

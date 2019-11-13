@@ -23,4 +23,4 @@ ruby preprocess-twitter.rb tweets-bots.csv tweets-bots-preprocessed.csv
 
 We created the training and test datasets joining both human and bot tweet datasest in one dataset, taking a random sample of 500000 tweets for training and 100000 random tweets for testing. The code can be found at [Generate_human_and_bots_tweets_dataset.ipynb](https://github.com/cberrioa/Human-or-Bot/blob/master/dataset%20geneation/Generate_human_and_bots_tweets_dataset.ipynb). This notebook can be imported in [Google Colab](https://colab.research.google.com), and can be runned from there if you want. You need to upload the 'tweets-humans.csv' and 'tweets-bots.csv' into Google Drive.
  
- You can use the same notebooks to generate the dataset of preprocessed tweets.
+ You can use the same notebook to generate the dataset of preprocessed tweets.

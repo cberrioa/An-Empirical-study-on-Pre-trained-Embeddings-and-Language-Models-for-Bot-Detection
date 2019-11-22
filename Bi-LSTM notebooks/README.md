@@ -1,4 +1,6 @@
-This folder includes code to train a BiLSTM using random trainable (dynamic) and ELMO embeddings. ELMO embeddings are contextualized 
+# BiLSTM neural networks experiments
+
+This folder includes code to train a BiLSTM (Bidirectional Long Short-Term Memory) neural network using random trainable (dynamic) and ELMO embeddings. ELMO embeddings are contextualized 
 embeddings, therefore a word has a different embedding in a different sentence. In order to avoid creating these embeddings multiple 
 times (we used 10-fold cross validation), first we get the embeddings of each word for each sentence of the dataset, and we save the 
 these embeddings in a hdf5 file. These embeddings are stored in a way that they can be accesed in a easy way, so when we need the 

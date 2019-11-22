@@ -1,4 +1,4 @@
-# An Empirical study on Pre-trained Embeddings and Language Models for Bot Detection code.
+# An Empirical study on Pre-trained Embeddings and Language Models for Bot Detection.
 
 ## Motivation
 **While word embeddings are learnt from large corpora, their use in neural models to solve specific tasks is limited to the input layer.** So in practice a task-specific neural model is built almost from scratch because most of the model parameters are initialized randomly, and hence, these paremeters need to be optimized for the task at hand, requiring large sets of data to produce a high performance model.
@@ -16,7 +16,7 @@ Please find the required code to generate the human-or-bot dataset in [dataset g
 Dataset generation can be a little bit time consuming, if you want to get the datasets, please send us an email <agarcia@expertsystem.com>, <cberrio@expertsystem.com> or <jmgomez@expertsystem.com>.
 
 ## CNN and BiLSTM experiments
-Since there were many experiments in the paper ['An Empirical study on Pre-trained Embeddings and Language Models for Bot Detection'](https://www.aclweb.org/anthology/W19-4317.pdf), only will be uploaded the code of those with the best results. Please feel free to ask for the other experiments.
+Since there were many experiments in the paper, only will be uploaded the code of those with the best results. Please feel free to ask for the other experiments.
 
 ## References
 

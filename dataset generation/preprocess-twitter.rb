@@ -4,6 +4,9 @@
 # Script for preprocessing tweets by Romain Paulus
 # with small modifications by Jeffrey Pennington  
 # CSV processing by Cristian Berrio
+# Note: This preprocess script is in based on the Ruby script for preprocessing Twitter data 
+# (https://nlp.stanford.edu/projects/glove/preprocess-twitter.rb), used to generate the Twitter GloVe embeddings
+# (https://nlp.stanford.edu/projects/glove/)
 def tokenize input
 
 	# Different regex parts for smiley faces

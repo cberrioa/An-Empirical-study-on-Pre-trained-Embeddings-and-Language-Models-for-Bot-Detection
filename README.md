@@ -11,7 +11,7 @@
 
 ![Bot detection classification task](https://drive.google.com/uc?id=1rSzM544MK2QOezpvUKHfrxATbkEiyBHX)
 
-## Dataset generation.
+## Dataset generation
 Please find the required code to generate the human-or-bot dataset in [dataset generation](./dataset%20generation).
 Dataset generation can be a little bit time consuming, if you want to get the datasets, please send us an email <agarcia@expertsystem.com>, <cberrio@expertsystem.com> or <jmgomez@expertsystem.com>.
 

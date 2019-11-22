@@ -1,4 +1,4 @@
-# Human-or-Bot
+# An Empirical study on Pre-trained Embeddings and Language Models for Bot Detection code.
 
 Please find the required code to generate the human-or-bot dataset in [dataset generation](https://github.com/cberrioa/Human-or-Bot/tree/master/dataset%20generation).
 

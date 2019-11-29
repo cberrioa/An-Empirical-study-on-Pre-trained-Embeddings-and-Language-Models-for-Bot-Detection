@@ -10,5 +10,5 @@ We also had to adapt our dataset to the SST2 dataset format. Please find the eva
 # How to finetune the Universal Language Model (ULMFit)?
 We used the [fastai library](https://docs.fast.ai/index.html) and we followed the [Training an IMDb sentiment model with ULMFiT](https://docs.fast.ai/text.html#Quick-Start:-Training-an-IMDb-sentiment-model-with-ULMFiT) using our dataset. You can find the notebook for the preprocessed dataset in [ULMFit.ipynb](./ULMFit.ipynb)
 
-## Finetuning using transformers library
+# Finetuning using transformers library
 [Transformers](https://github.com/huggingface/transformers) library provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch. We use this library in [Bot_Classifier_LMs.ipynb](./Bot_Classifier_LMs.ipynb) to finetune different models (BERT, GPT-2, XLNET) with the human/bot tweet dataset.

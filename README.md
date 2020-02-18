@@ -9,7 +9,7 @@
 
 **Evaluation results, presented in the figure below, show that fine-tuning language models yields overall better results than training specific neural architectures** that are fed with mixture of: i) pre-trained contextualized word embeddings (ELMo), ii) pre-trained  context-indepedent word embeddings learnt from Common Crawl(FastText), Twitter (GloVe), and urban dictionary (word2vec), plus embeddings optimized by the neural network in the learning process. 
 
-![Bot detection classification task](https://drive.google.com/uc?id=1rSzM544MK2QOezpvUKHfrxATbkEiyBHX)
+![Bot detection classification task](./fmeasurelanguagemodelsbot.png)
 
 ## Dataset generation
 Please find the required code to generate the dataset in [dataset generation](./dataset%20generation).
